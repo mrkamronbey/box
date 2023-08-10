@@ -1,0 +1,81 @@
+{
+  "Header": {
+    "0": "Biz Haqimizda",
+    "1": "Katalog",
+    "2": "Xizmatlar",
+    "3": "Blog",
+    "4": "Yangiliklar",
+    "5": "Kontaktlar",
+    "HeaderTop": {
+      "0": "RU",
+      "1": "EN",
+      "2": "UZ"
+    }
+  },
+  "Home": {
+    "0": "Ravshan Yodik Production - Sifatli qutilar ishlab chiqarishdagi hamkoringiz",
+    "1": "Qadoqlash ehtiyojlaringiz uchun innovatsion echimlarni yaratish",
+    "2": "Biz bilan bog'lanish",
+    "3": "New Products",
+    "4": "Cooperate With Us",
+    "5": "Top Sellers",
+    "Factory":{
+      "0":"Maxsus quti dizayni:",
+      "1":"Qog'oz qutining individual dizaynini ishlab chiqish qutining o'lchami va shaklini aniqlash, material tanlash, ranglar palitrasi va grafik uslubni aniqlash, qo'shimcha pardozlash elementlaridan foydalanish, qo'shimcha xususiyatlarni hisobga olgan holda, markalash va muddatlar va byudjetlarni belgilashni o'z ichiga oladi. Professional dizaynerlar yoki qadoqlash kompaniyalari bilan hamkorlik sizning ehtiyojlaringiz va brend maqsadlaringizga javob beradigan noyob va yuqori sifatli dizaynni yaratishga yordam beradi.",
+      "2":"Shtamp shakllari",
+      "3":"Biz qadoqlash uchun noyob shakllar va dizaynlarni yaratishga imkon beruvchi qoliplarni kesish xizmatlarini taklif etamiz. Tajribali dizaynerlarimiz va texnik xodimlarimiz sizning talablaringizga javob beradigan samarali va funktsional qoliplarni ishlab chiqishda yordam beradi.",
+      "4":"Stretch plyonkalar va shrink plyonkalarni yetkazib berish",
+      "5":"Tovarlaringiz xavfsiz va xavfsiz qadoqlanishini ta'minlash uchun yuqori sifatli strech plyonkalar va shrink plyonkalarni yetkazib berishni taklif etamiz. Bizning materiallarimiz tashish va saqlash vaqtida mahsulotlarning yaxlitligi va xavfsizligini ta'minlaydigan yuqori quvvat va himoya xususiyatlariga ega."
+    }
+  },
+  "Employees":{
+    "0":"Bizning xodimlarimiz"
+  },
+  "Details":{
+    "0":"Sifatli qutilar ishlab chiqarishdagi hamkoringiz. Biz ilg'or texnologiyalar va materiallardan foydalangan holda qadoqlashning yuqori echimlarini yaratamiz.Mahsulotlaringizni himoya qilish va oqlangan tarzda taqdim etish uchun bizga ishoning. Sizning biznesingiz uchun haqiqiy hunarmandchilik.",
+    "1":"asosiy faoliyat"
+  },
+  "Comments":{
+    "0":"Mijozlarning sharhlari"
+  },
+  "Products":{
+    "0":"Mahsulot haqida batafsil",
+    "1":"Zavod mahsulotlari"
+  },
+  "Partner":{
+    "0":"Bizning hamkorlarimiz"
+  },
+  "Form": {
+    "0": "Свяжитесь с нашим специалистом",
+    "1": "Hamkorlikka qiziqasizmi yoki savollaringiz bormi? Fikr-mulohaza shaklini to'ldiring va menejerlarimiz siz bilan bog'lanadi",
+    "2": "Biz ish paytida  15 daqiqa ichida javob beramiz",
+    "3": "Biz sizning shaxsiy ma'lumotlaringizni himoya qilamiz",
+    "4": "Aloqa qiluvchi shaxs",
+    "5": "Telefon",
+    "6": "Elektron pochta",
+    "7": "Izoh",
+    "8": "Tugmani bosish orqali men maxfiylik siyosatiga rozilik bildiraman",
+    "9": "Biz bilan bog'lanish",
+    "10": "Savolingizning mohiyatini yozing",
+    "11":"F.I.Sh."
+  },
+  "Footer": {
+    "0": "Katalog",
+    "1": "Qog`oz",
+    "2": "Stretch plyonka",
+    "3": "Kontrplak",
+    "4": "TERMORISTANT QOG'OZ",
+    "5": "Gofrirovka qilingan mahsulotlar",
+    "6":"Sahifa",
+    "7": "Biz Haqimizda",
+    "8": "Xizmatlar",
+    "9": "Blog",
+    "10": "Yangiliklar",
+    "11": "Kontaktlar",
+    "12": "Kontaktlar",
+    "13":"Manzil",
+    "14":"O'zbekiston Respublikasi",
+    "15":"1000005 Toshkent",
+    "16":"Yangixayot tumanib Janubiy sanoat zonasi 154"
+  }
+}

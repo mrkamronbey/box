@@ -1,0 +1,81 @@
+{
+  "Header": {
+    "0": "About us",
+    "1": "Catalog",
+    "2": "Services",
+    "3": "Blog",
+    "4": "News",
+    "5": "Contacts",
+    "HeaderTop": {
+      "0": "RU",
+      "1": "EN",
+      "2": "UZ"
+    }
+  },
+  "Home": {
+    "0": "Ravshan Yodik Production- YOUR PARTNER FOR HIGH QUALITY BOXES",
+    "1": "Creating innovative solutions for your packaging needs",
+    "2": "Contact with us",
+    "3": "New Products",
+    "4": "Cooperate With Us",
+    "5": "Top Sellers",
+    "Factory":{
+      "0":"Custom box design:",
+      "1":"The development of an individual design of a paper box includes determining the size and shape of the box, choosing the material, determining the color palette and graphic style, using additional finishing elements, taking into account additional features, branding and setting deadlines and budgets. Collaboration with professional designers or packaging companies will help you create a unique and high-quality design that meets your needs and brand goals.",
+      "2":"Stamp forms",
+      "3":"We offer die cutting services that allow you to create unique shapes and designs for your packaging. Our experienced designers and technicians will help you develop efficient and functional die cutters that meet your requirements.",
+      "4":"Supply of stretch films and shrink films",
+      "5":"We offer a supply of high quality stretch films and shrink films to ensure the safe and secure packaging of your goods. Our materials have high strength and protective properties that ensure the integrity and safety of products during transportation and storage."
+    }
+  },
+  "Employees":{
+    "0":"Our employees"
+  },
+  "Details":{
+    "0":"Your partner in the production of quality boxes. We create superior packaging solutions using cutting-edge technologies and materials.Trust us to protect and elegantly present your products. True craftsmanship for your business.",
+    "1":"primary activity"
+  },
+  "Comments":{
+    "0":"Customer Reviews"
+  },
+  "Products":{
+    "0":"More about the product",
+    "1":"Factory products"
+  },
+  "Partner":{
+    "0":"Our partners"
+  },
+  "Form": {
+    "0": "Contact our specialist",
+    "1": "Interested in cooperation or have questions? Fill out the feedback form and our managers will contact you",
+    "2": "We will respond within 15 minutes during business hours",
+    "3": "We protect your personal data",
+    "4": "The contact person",
+    "5": "Telephone",
+    "6": "Email",
+    "7": "Commentary",
+    "8": "By clicking the button I agree to the privacy policy",
+    "9": "Contact with us",
+    "10": "Write the essence of your question",
+    "11": "F.I.O."
+  },
+  "Footer": {
+    "0": "Catalog",
+    "1": "PAPER",
+    "2": "Stretch film",
+    "3": "Plywood",
+    "4": "THERMORESISTANT PAPER",
+    "5": "Corrugated products",
+    "6": "Page",
+    "7": "About us",
+    "8": "Services",
+    "9": "Blog",
+    "10": "News",
+    "11": "Contacts",
+    "12": "Contacts",
+    "13": "Address",
+    "14": "Republic of Uzbekistan",
+    "15": "1000005 Tashkent",
+    "16": "Yangihayot district b South industrial zone 154"
+  }
+}
