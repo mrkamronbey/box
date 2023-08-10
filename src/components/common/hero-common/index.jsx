@@ -20,7 +20,7 @@ const HeroCommon = ({ heroTitle, heroText, heroBtn, isBtn, id }) => {
             >
               <h2>{heroTitle}</h2>
               <p>{heroText}</p>
-              {isBtn === true ? <a href={id}>{heroBtn}</a> : null}
+              {isBtn === true ? <a href={`#${id}`}>{heroBtn}</a> : null}
             </Col>
           </Row>
         </BigContainer>

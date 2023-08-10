@@ -7,12 +7,12 @@ import { MdMail } from "react-icons/md";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { CgClose } from "react-icons/cg";
 import { useTranslation } from "react-i18next";
-import LogoImg from "../../assets/home/logo.svg";
+import LogoImg from "../../../assets/home/logo.svg";
 import LanguageHeader from "./header-language";
-import { BigContainer } from "../../style-app";
-import { Button } from ".././common/button-common/index";
+import { BigContainer } from "../../../style-app";
+import { Button } from "../../common/button-common/index";
 
-const Header = () => {
+const ContactHeader = () => {
   const { t } = useTranslation();
 
   const [click, setClick] = useState(false);
@@ -81,4 +81,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default ContactHeader;

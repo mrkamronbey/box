@@ -19,31 +19,39 @@
     "3": "New Products",
     "4": "Cooperate With Us",
     "5": "Top Sellers",
-    "Factory":{
-      "0":"Maxsus quti dizayni:",
-      "1":"Qog'oz qutining individual dizaynini ishlab chiqish qutining o'lchami va shaklini aniqlash, material tanlash, ranglar palitrasi va grafik uslubni aniqlash, qo'shimcha pardozlash elementlaridan foydalanish, qo'shimcha xususiyatlarni hisobga olgan holda, markalash va muddatlar va byudjetlarni belgilashni o'z ichiga oladi. Professional dizaynerlar yoki qadoqlash kompaniyalari bilan hamkorlik sizning ehtiyojlaringiz va brend maqsadlaringizga javob beradigan noyob va yuqori sifatli dizaynni yaratishga yordam beradi.",
-      "2":"Shtamp shakllari",
-      "3":"Biz qadoqlash uchun noyob shakllar va dizaynlarni yaratishga imkon beruvchi qoliplarni kesish xizmatlarini taklif etamiz. Tajribali dizaynerlarimiz va texnik xodimlarimiz sizning talablaringizga javob beradigan samarali va funktsional qoliplarni ishlab chiqishda yordam beradi.",
-      "4":"Stretch plyonkalar va shrink plyonkalarni yetkazib berish",
-      "5":"Tovarlaringiz xavfsiz va xavfsiz qadoqlanishini ta'minlash uchun yuqori sifatli strech plyonkalar va shrink plyonkalarni yetkazib berishni taklif etamiz. Bizning materiallarimiz tashish va saqlash vaqtida mahsulotlarning yaxlitligi va xavfsizligini ta'minlaydigan yuqori quvvat va himoya xususiyatlariga ega."
+    "Factory": {
+      "0": "Maxsus quti dizayni:",
+      "1": "Qog'oz qutining individual dizaynini ishlab chiqish qutining o'lchami va shaklini aniqlash, material tanlash, ranglar palitrasi va grafik uslubni aniqlash, qo'shimcha pardozlash elementlaridan foydalanish, qo'shimcha xususiyatlarni hisobga olgan holda, markalash va muddatlar va byudjetlarni belgilashni o'z ichiga oladi. Professional dizaynerlar yoki qadoqlash kompaniyalari bilan hamkorlik sizning ehtiyojlaringiz va brend maqsadlaringizga javob beradigan noyob va yuqori sifatli dizaynni yaratishga yordam beradi.",
+      "2": "Shtamp shakllari",
+      "3": "Biz qadoqlash uchun noyob shakllar va dizaynlarni yaratishga imkon beruvchi qoliplarni kesish xizmatlarini taklif etamiz. Tajribali dizaynerlarimiz va texnik xodimlarimiz sizning talablaringizga javob beradigan samarali va funktsional qoliplarni ishlab chiqishda yordam beradi.",
+      "4": "Stretch plyonkalar va shrink plyonkalarni yetkazib berish",
+      "5": "Tovarlaringiz xavfsiz va xavfsiz qadoqlanishini ta'minlash uchun yuqori sifatli strech plyonkalar va shrink plyonkalarni yetkazib berishni taklif etamiz. Bizning materiallarimiz tashish va saqlash vaqtida mahsulotlarning yaxlitligi va xavfsizligini ta'minlaydigan yuqori quvvat va himoya xususiyatlariga ega."
     }
   },
-  "Employees":{
-    "0":"Bizning xodimlarimiz"
+  "Employees": {
+    "0": "Bizning xodimlarimiz"
   },
-  "Details":{
-    "0":"Sifatli qutilar ishlab chiqarishdagi hamkoringiz. Biz ilg'or texnologiyalar va materiallardan foydalangan holda qadoqlashning yuqori echimlarini yaratamiz.Mahsulotlaringizni himoya qilish va oqlangan tarzda taqdim etish uchun bizga ishoning. Sizning biznesingiz uchun haqiqiy hunarmandchilik.",
-    "1":"asosiy faoliyat"
+  "Details": {
+    "0": "Sifatli qutilar ishlab chiqarishdagi hamkoringiz. Biz ilg'or texnologiyalar va materiallardan foydalangan holda qadoqlashning yuqori echimlarini yaratamiz.Mahsulotlaringizni himoya qilish va oqlangan tarzda taqdim etish uchun bizga ishoning. Sizning biznesingiz uchun haqiqiy hunarmandchilik.",
+    "1": "asosiy faoliyat"
   },
-  "Comments":{
-    "0":"Mijozlarning sharhlari"
+  "Comments": {
+    "0": "Mijozlarning sharhlari"
   },
-  "Products":{
-    "0":"Mahsulot haqida batafsil",
-    "1":"Zavod mahsulotlari"
+  "Products": {
+    "0": "Mahsulot haqida batafsil",
+    "1": "Zavod mahsulotlari"
   },
-  "Partner":{
-    "0":"Bizning hamkorlarimiz"
+  "Partner": {
+    "0": "Bizning hamkorlarimiz"
+  },
+  "ProductMore": {
+    "0": "Ravshan Yodik Production yuqori sifatli qutilar ishlab chiqarishdagi hamkoringiz",
+    "1": "Qadoqlash ehtiyojlaringiz uchun innovatsion echimlarni yaratish",
+    "2": "Biz bilan bog'laning",
+    "3": "Zavod mahsulotlari",
+    "4": "Quyida mahsulotlarimiz ro'yxati keltirilgan. Qo'shimcha ma'lumot olish, shuningdek so'rov qoldirish uchun tijorat xizmatiga murojaat qiling.",
+    "5": "Buyurtma"
   },
   "Form": {
     "0": "Свяжитесь с нашим специалистом",
@@ -57,7 +65,16 @@
     "8": "Tugmani bosish orqali men maxfiylik siyosatiga rozilik bildiraman",
     "9": "Biz bilan bog'lanish",
     "10": "Savolingizning mohiyatini yozing",
-    "11":"F.I.Sh."
+    "11": "F.I.Sh."
+  },
+  "Contact": {
+    "0": "Aloqa ma'lumotlari",
+    "1": "Manzil",
+    "2": "Gremyachinsk Perm o'lkasi 618270 Rossiya Federatsiyasi, Gremyachinsk, Kommunisticheskaya ko'chasi, 1",
+    "3": "Xarid qilish bo'limi",
+    "4": "Savdo bo'limi",
+    "5": "Kichik ulgurji, 'qalamlar', 'pyataki': ",
+    "6": "Mutaxassisimizga murojaat qiling"
   },
   "Footer": {
     "0": "Katalog",
@@ -66,16 +83,16 @@
     "3": "Kontrplak",
     "4": "TERMORISTANT QOG'OZ",
     "5": "Gofrirovka qilingan mahsulotlar",
-    "6":"Sahifa",
+    "6": "Sahifa",
     "7": "Biz Haqimizda",
     "8": "Xizmatlar",
     "9": "Blog",
     "10": "Yangiliklar",
     "11": "Kontaktlar",
     "12": "Kontaktlar",
-    "13":"Manzil",
-    "14":"O'zbekiston Respublikasi",
-    "15":"1000005 Toshkent",
-    "16":"Yangixayot tumanib Janubiy sanoat zonasi 154"
+    "13": "Manzil",
+    "14": "O'zbekiston Respublikasi",
+    "15": "1000005 Toshkent",
+    "16": "Yangixayot tumanib Janubiy sanoat zonasi 154"
   }
 }

@@ -19,31 +19,39 @@
     "3": "New Products",
     "4": "Cooperate With Us",
     "5": "Top Sellers",
-    "Factory":{
-      "0":"Custom box design:",
-      "1":"The development of an individual design of a paper box includes determining the size and shape of the box, choosing the material, determining the color palette and graphic style, using additional finishing elements, taking into account additional features, branding and setting deadlines and budgets. Collaboration with professional designers or packaging companies will help you create a unique and high-quality design that meets your needs and brand goals.",
-      "2":"Stamp forms",
-      "3":"We offer die cutting services that allow you to create unique shapes and designs for your packaging. Our experienced designers and technicians will help you develop efficient and functional die cutters that meet your requirements.",
-      "4":"Supply of stretch films and shrink films",
-      "5":"We offer a supply of high quality stretch films and shrink films to ensure the safe and secure packaging of your goods. Our materials have high strength and protective properties that ensure the integrity and safety of products during transportation and storage."
+    "Factory": {
+      "0": "Custom box design:",
+      "1": "The development of an individual design of a paper box includes determining the size and shape of the box, choosing the material, determining the color palette and graphic style, using additional finishing elements, taking into account additional features, branding and setting deadlines and budgets. Collaboration with professional designers or packaging companies will help you create a unique and high-quality design that meets your needs and brand goals.",
+      "2": "Stamp forms",
+      "3": "We offer die cutting services that allow you to create unique shapes and designs for your packaging. Our experienced designers and technicians will help you develop efficient and functional die cutters that meet your requirements.",
+      "4": "Supply of stretch films and shrink films",
+      "5": "We offer a supply of high quality stretch films and shrink films to ensure the safe and secure packaging of your goods. Our materials have high strength and protective properties that ensure the integrity and safety of products during transportation and storage."
     }
   },
-  "Employees":{
-    "0":"Our employees"
+  "Employees": {
+    "0": "Our employees"
   },
-  "Details":{
-    "0":"Your partner in the production of quality boxes. We create superior packaging solutions using cutting-edge technologies and materials.Trust us to protect and elegantly present your products. True craftsmanship for your business.",
-    "1":"primary activity"
+  "Details": {
+    "0": "Your partner in the production of quality boxes. We create superior packaging solutions using cutting-edge technologies and materials.Trust us to protect and elegantly present your products. True craftsmanship for your business.",
+    "1": "primary activity"
   },
-  "Comments":{
-    "0":"Customer Reviews"
+  "Comments": {
+    "0": "Customer Reviews"
   },
-  "Products":{
-    "0":"More about the product",
-    "1":"Factory products"
+  "Products": {
+    "0": "More about the product",
+    "1": "Factory products"
   },
-  "Partner":{
-    "0":"Our partners"
+  "Partner": {
+    "0": "Our partners"
+  },
+  "ProductMore": {
+    "0": "Ravshan Yodik Production is your partner in the production of high quality boxes",
+    "1": "Creating innovative solutions for your packaging needs",
+    "2": "Contact us",
+    "3": "Factory products",
+    "4": "Below is a list of our products. For more information, as well as to leave a request, please contact the commercial service.",
+    "5": "Order"
   },
   "Form": {
     "0": "Contact our specialist",
@@ -58,6 +66,15 @@
     "9": "Contact with us",
     "10": "Write the essence of your question",
     "11": "F.I.O."
+  },
+  "Contact": {
+    "0": "Contact information",
+    "1": "Address",
+    "2": "Gremyachinsk Perm Territory 618270 Russian Federation, Gremyachinsk, Kommunisticheskaya st., 1",
+    "3": "Purchasing department",
+    "4": "Sales Department",
+    "5": "Small wholesale, 'pencils', 'nickels': ",
+    "6": "Contact our specialist"
   },
   "Footer": {
     "0": "Catalog",

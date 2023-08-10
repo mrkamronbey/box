@@ -5,15 +5,16 @@ import styles from "./card-common.module.css";
 
 export const Card = (props) => {
   const { t } = useTranslation();
+  
   return (
-    <div className={styles.card}>
+    <div className={`${styles.card} ${props.className}`}>
       <div className={styles.imgbox}>
         <img src={props.image} width="240" height="190" alt="" />
       </div>
       <h3>{props.title}</h3>
       <p>{props.text}</p>
-      <Link to={`/products/${props.id}`}>
-        <Button>{t("Products.0")}</Button>
+      <Link to={`/productmore/${props.id}`}>
+        <Button onClick={props.handle}>{t("Products.0")}</Button>
       </Link>
     </div>
   );

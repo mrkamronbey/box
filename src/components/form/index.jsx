@@ -5,10 +5,10 @@ import { useTranslation } from "react-i18next";
 import styles from "./form.module.css";
 import { FormCard } from "./form-card";
 
-export const Form = () => {
+export  const Form = () => {
   const { t } = useTranslation();
   return (
-    <div className={styles.form}>
+    <div className={styles.form} id='form'>
       <BigContainer>
         <div className={styles.form_list}>
           <Col lg={6} md={12} sx={12} sm={12} className={styles.form_left}>
@@ -29,7 +29,7 @@ export const Form = () => {
             </a>
           </Col>
           <Col lg={6} md={12} sx={12} sm={12}>
-            <FormCard></FormCard>
+            <FormCard />
           </Col>
         </div>
       </BigContainer>
