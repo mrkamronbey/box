@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import styles from "./style.module.css";
 import { WrapperContainer } from "../../../style-app";
 import { useTranslation } from "react-i18next";
@@ -6,11 +6,14 @@ import { Card } from '../../common/card-common/index'
 import Slider from "react-slick";
 import './style.css'
 import bumagaImg from "../../../assets/products/bumaga-png.png";
+import { useDispatch, useSelector } from 'react-redux'
+import { ProductGet } from '../../../redux/products/index'
 
 
 
 const ProductFactory = () => {
   const { t } = useTranslation();
+  const dispatch = useDispatch()
   const products = [
     {
       id: "p1",
@@ -49,6 +52,13 @@ const ProductFactory = () => {
       image: bumagaImg,
     },
   ];
+  const productGetState = useSelector((state) => state.product.productGet?.data);
+  useEffect(() => {
+    dispatch(ProductGet())
+  }, [])
+  const LangVal = () => {
+    return window.localStorage.getItem("i18nextLng");
+  };
   const settings = {
     dots: false,
     infinite: true,
@@ -92,7 +102,7 @@ const ProductFactory = () => {
 
   const handleTop = () => {
     window.scrollTo(0, 550)
-   }
+  }
 
   return (
     <>
@@ -105,16 +115,32 @@ const ProductFactory = () => {
           <div className='product_factory_slider_wrapp'>
             <Slider {...settings}>
               {
-                products.map((product) => (
+                productGetState.map((product) => (
                   <div className='slider_card_box'>
-                      <Card
-                        title={product.title}
-                        text={product.text}
-                        image={product.image}
-                        id={product.id}
-                        className={styles.card_white}
-                        handle={handleTop}
-                      />
+                    <Card
+                      title={
+                        LangVal() == "ru"
+                          ? product.title_ru
+                          : LangVal() == "uz"
+                            ? product.title_uz
+                            : LangVal() == "en"
+                              ? product.title_en
+                              : product.title_ru
+                      }
+                      text={
+                        LangVal() == "ru"
+                          ? `${product.description_ru.slice(0, 30)}...`
+                          : LangVal() == "uz"
+                            ? `${product.description_uz.slice(0, 30)}...`
+                            : LangVal() == "en"
+                              ? `${product.description_en.slice(0, 30)}...`
+                              : `${product.description_ru.slice(0, 30)}...`
+                      }
+                      image={product.image}
+                      id={product.id}
+                      className={styles.card_white}
+                      handle={handleTop}
+                    />
                   </div>
                 ))
               }

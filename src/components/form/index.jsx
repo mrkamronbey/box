@@ -3,7 +3,7 @@ import { BigContainer } from "../../style-app";
 import { BsCheckCircle } from "react-icons/bs";
 import { useTranslation } from "react-i18next";
 import styles from "./form.module.css";
-import { FormCard } from "./form-card";
+import FormCard from "./form-card";
 
 export  const Form = () => {
   const { t } = useTranslation();

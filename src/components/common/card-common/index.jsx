@@ -9,7 +9,7 @@ export const Card = (props) => {
   return (
     <div className={`${styles.card} ${props.className}`}>
       <div className={styles.imgbox}>
-        <img src={props.image} width="240" height="190" alt="" />
+        <img src={props.image} width="100%" height="auto" style={{aspectRatio: 1 / 1}} alt="" />
       </div>
       <h3>{props.title}</h3>
       <p>{props.text}</p>

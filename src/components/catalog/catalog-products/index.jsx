@@ -4,9 +4,11 @@ import ButtonGroup from "@mui/material/ButtonGroup";
 import styles from "./catalog-products.module.css";
 import bumagaImg from "../../../assets/products/bumaga-png.png";
 import "./style.css";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Col, Row } from "react-grid-system";
 import { Card } from "../../common/card-common";
+import { CategoryGet } from "../../../redux/category";
+import { useSelector, useDispatch } from "react-redux";
 
 const data = [
   {
@@ -53,37 +55,52 @@ const data = [
   },
 ];
 
-const catalog = [
-  {
-    id: 1,
-    catalog: "БУМАГА",
-  },
-  {
-    id: 2,
-    catalog: "Фанера",
-  },
-  {
-    id: 3,
-    catalog: "СТРЕЙЧ ПЛЕНКА",
-  },
-  {
-    id: 4,
-    catalog: "ГОФРОПРОДУКЦИЯ",
-  },
-  {
-    id: 5,
-    catalog: "ТЕРМОУСАДОЧНАЯ ПЛЕНКА",
-  },
-];
+
+
 
 export const CatalogProducts = () => {
+  const catalog = [
+    {
+      id: 1,
+      catalog: "БУМАГА",
+    },
+    {
+      id: 2,
+      catalog: "Фанера",
+    },
+    {
+      id: 3,
+      catalog: "СТРЕЙЧ ПЛЕНКА",
+    },
+    {
+      id: 4,
+      catalog: "ГОФРОПРОДУКЦИЯ",
+    },
+    {
+      id: 5,
+      catalog: "ТЕРМОУСАДОЧНАЯ ПЛЕНКА",
+    },
+  ];
+  const LangVal = () => {
+    return window.localStorage.getItem("i18nextLng");
+  };
   const [products, setProducts] = useState(data);
+  const dispatch = useDispatch()
+  const categoryGetState = useSelector((state) => state.category.categoryGet?.data);
+  console.log(categoryGetState)
+  useEffect(() => {
+    dispatch(CategoryGet())
+  }, [])
+
+
 
   const HandleFilter = (e) => {
     e.preventDefault();
-    let filtered = data.filter(
-      (product) => product.catalog_id === +e.target.id
-    );
+    // let filtered = data.filter(
+    //   (product) => product.catalog_id === +e.target.id
+    // );
+
+    let filtered = categoryGetState.map(elem => elem.products.filter((product) => product.id === +e.target.id))
     setProducts(filtered);
   };
 
@@ -96,13 +113,21 @@ export const CatalogProducts = () => {
             variant="outlined"
             aria-label="outlined button group"
           >
-            {catalog.map((item) => (
+            {categoryGetState.map((item) => (
               <Button
                 key={item.id}
                 id={item.id}
                 onClick={(e) => HandleFilter(e)}
               >
-                {item.catalog}
+                {
+                  LangVal() == "ru"
+                    ? item.title_ru
+                    : LangVal() == "uz"
+                      ? item.title_uz
+                      : LangVal() == "en"
+                        ? item.title_en
+                        : item.title_ru
+                }
               </Button>
             ))}
           </ButtonGroup>
@@ -111,23 +136,43 @@ export const CatalogProducts = () => {
       <div className={styles.catalog_bottom}>
         <BigContainer>
           <Row className={styles.catalog_row}>
-            {products.map((product) => (
-              <Col
-                className={styles.catalog_col}
-                lg={4}
-                md={6}
-                sx={6}
-                sm={12}
-                key={product.id}
-              >
-                <Card
-                  title={product.title}
-                  text={product.text}
-                  image={product.image}
-                  id={product.id}
-                />
-              </Col>
-            ))}
+            {
+              categoryGetState.map(elem => (
+                elem.products.map(product => (
+                  <Col
+                    className={styles.catalog_col}
+                    lg={4}
+                    md={6}
+                    sx={6}
+                    sm={12}
+                    key={product.id}
+                  >
+                    <Card
+                      title={
+                        LangVal() == "ru"
+                          ? product.title_ru
+                          : LangVal() == "uz"
+                            ? product.title_uz
+                            : LangVal() == "en"
+                              ? product.title_en
+                              : product.title_ru
+                      }
+                      text={
+                        LangVal() == "ru"
+                          ? `${product.description_ru.slice(0, 50)}...`
+                          : LangVal() == "uz"
+                            ? `${product.description_uz.slice(0, 50)}...`
+                            : LangVal() == "en"
+                              ? `${product.description_en.slice(0, 50)}...`
+                              : `${product.description_ru.slice(0, 50)}...`
+                      }
+                      image={product.image}
+                      id={product.id}
+                    />
+                  </Col>
+                ))
+              ))
+            }
           </Row>
         </BigContainer>
       </div>
